@@ -1,3 +1,24 @@
 body{
     background: rgb(0, 0, 0);
-}
+   }
+
+  .flashcard {
+    position: relative;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    min-width: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    z-index: 0;
+  }
+
+  /* Borda com cantos arredondados UAUAUAUAU*/
+  .flashcard::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    padding: 1px; /* espessura da borda */
+
+  }
