@@ -1,5 +1,5 @@
   body {
-    background: #2c2f33;
+    background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,12 @@
 
   .flashcard {
     position: relative;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(4, 61, 0, 0.75);
     color: #fff;
     padding: 12px 16px;
     border-radius: 8px;
     min-width: 220px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 10px rgba(8, 60, 0, 0.514);
     z-index: 0;
   }
 
