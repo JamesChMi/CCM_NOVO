@@ -1,17 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+
   body {
     background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Encode Sans", sans-serif;
 }
 
-  title {
 
-    color: white;
-    display: flex;
-
-  }
    .flashcard {
     position: relative;
     background: rgba(4, 61, 0, 0.75);
@@ -32,3 +31,9 @@
     padding: 1px; /* espessura da borda */
 
   }
+
+   h1 {
+    
+    color: white;
+
+   }
