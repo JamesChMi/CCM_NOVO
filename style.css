@@ -16,7 +16,7 @@
 
   }
 
-   .flashcard {
+   .cabecalho {
     position: relative;
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
@@ -28,7 +28,7 @@
   }
 
   /* Borda com cantos arredondados UAUAUAUAU*/
-  .flashcard::before {
+  .cabecalho::before {
     content: "";
     position: absolute;
     inset: 0;
